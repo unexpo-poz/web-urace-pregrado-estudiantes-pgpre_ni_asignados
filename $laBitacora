@@ -1,0 +1,2 @@
+ {FATAL: la autentificación password falló para el usuario «c»}
+*:[29/10/2015 14:17:08.59][172.16.1.236][N_E] SELECT descripcion from discapacidad where numero = '01' [0][0]  {FATAL: la autentificación password falló para el usuario «c»}
