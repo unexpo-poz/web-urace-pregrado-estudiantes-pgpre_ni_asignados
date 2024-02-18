@@ -11,7 +11,7 @@
 			<td>Estimado Bachiller:<br></td>
 		</tr>
 		<tr>
-			<td class="instruc">PARA FORMALIZAR TU INSCRIPCI&Oacute;N debes acudir a la sede de la UNEXPO:&nbsp;<b>Los d&iacute;as Desde 11/10/23 Al 13/10/23 para los asignados por OPSU y 16/10/23 Al 18/10/23 para los de Censo</b>&nbsp; y traer los siguientes recaudos COMPLETOS:
+			<td class="instruc">PARA FORMALIZAR TU INSCRIPCI&Oacute;N debes acudir a la sede de la UNEXPO:&nbsp;<b>Los d&iacute;as Desde 11/03/24 Al 13/03/24 para los asignados por OPSU y 14/03/24 Al 15/03/24 para los de Censo</b>&nbsp; y traer los siguientes recaudos COMPLETOS:
 				<ul style="list-style:circle; background:white;">
 					<li> T&iacute;tulo de Bachiller en Ciencias, Industrial o T&eacute;cnico Medio Industrial (original y fondo negro n&iacute;tido).</li>					
 					<li>Partida de Nacimiento (original y fotocopia n&iacute;tida).</li>
