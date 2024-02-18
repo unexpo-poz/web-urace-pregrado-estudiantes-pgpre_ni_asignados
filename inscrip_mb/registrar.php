@@ -1008,9 +1008,9 @@ P002
 <?php
 	$formOK = false;
 	$inscribeN = 0;
-	if (isset($_SERVER['HTTP_REFERER'])) {
+	/* if (isset($_SERVER['HTTP_REFERER'])) {
 		$formOK = ($_SERVER['HTTP_REFERER'] == $raizDelSitio .'planilla_r.php');
-	}
+	} */
 
     if (isset($_POST['inscribe'])){
        $inscribe = $_POST['inscribe'];
