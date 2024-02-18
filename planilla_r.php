@@ -262,7 +262,7 @@
 <script LANGUAGE="Javascript" SRC="inscni.js">
 </script>
 
-<script src="asincronos.js"> </script><!-- PARA GENERAR LAS CIUDADES Y MUNICIPIOS -->
+<script data-cfasync="false" src="asincronos.js"> </script><!-- PARA GENERAR LAS CIUDADES Y MUNICIPIOS -->
 
 </head>
 
@@ -1072,7 +1072,7 @@ P001P;
 					
 					<td colspan="1" class="datosp" style="width: 200px;" >
 						<input type="hidden" name="ano_egre_cole" value="{$_d['ano_egre_cole']}">
-                        Año de Egreso: 
+                        Aï¿½o de Egreso: 
 						<select name="ano_egre_coleS" id="anoegrecole_S_1" class="datospf" 
 					    onChange="validar(this);">
 						<option value="">-SELECCIONE-</option>
@@ -1547,12 +1547,12 @@ P002;
 							<option value="">-SELECCIONE-</option>
 							<option value="AFROAMERICANO">AFROAMERICANO</option>
 							<option value="AFROEUROPEO">AFROEUROPEO</option>
-							<option value="AFROASIÁTICO">AFROASIÁTICO</option>
+							<option value="AFROASIï¿½TICO">AFROASIï¿½TICO</option>
 							<option value="AFROESTADOUNIDENSE">AFROESTADOUNIDENSE</option>
 							<option value="AFROANTILLANO">AFROANTILLANO</option>
 							<option value="AFROCUBANO">AFROCUBANO</option>
 							<option value="AFROVENEZOLANO">AFROVENEZOLANO</option>
-							<option value="AFROBRASILEÑO">AFROBRASILEÑO</option>
+							<option value="AFROBRASILEï¿½O">AFROBRASILEï¿½O</option>
 							<option value="AFROARGENTINO">AFROARGENTINO</option>
 							<option value="AFROBOLIVIANO">AFROBOLIVIANO</option>
 							<option value="AFROCHILENO">AFROCHILENO</option>
@@ -1561,7 +1561,7 @@ P002;
 							<option value="AFROMEXICANO">AFROMEXICANO</option>
 							<option value="AFROPERUANO">AFROPERUANO</option>
 							<option value="AFROURUGUAYO">AFROURUGUAYO</option>
-							<option value="AFROESPAÑOL">AFROESPAÑOL</option>
+							<option value="AFROESPAï¿½OL">AFROESPAï¿½OL</option>
 							<option value="OTRO">OTRO</option>
 						</select>
 					</td>

@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script src="asincronos.js"> </script><!-- PARA GENERAR LOS ESTADOS,CIUDADES MUNICIPIOS Y PARROQUIAS QUE FALTAN-->
+<script data-cfasync="false" src="asincronos.js"> </script><!-- PARA GENERAR LOS ESTADOS,CIUDADES MUNICIPIOS Y PARROQUIAS QUE FALTAN-->
 <script LANGUAGE="Javascript" SRC="inscni.js"></script>
 </head>
 

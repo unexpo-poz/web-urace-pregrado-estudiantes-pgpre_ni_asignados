@@ -3,7 +3,7 @@
 <link href="inc/estilo.css" rel="stylesheet" type="text/css">
 
 <script LANGUAGE="Javascript" SRC="inscni.js"></script>
-<script LANGUAGE="Javascript" SRC="asincrono.js"></script>
+<script data-cfasync="false" LANGUAGE="Javascript" SRC="asincrono.js"></script>
 </head>
 <body>
 <?php

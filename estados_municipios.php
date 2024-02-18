@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
-<script src="asincronos.js"> </script>
+<script data-cfasync="false" src="asincronos.js"> </script>
 </head>
 
 <body>
