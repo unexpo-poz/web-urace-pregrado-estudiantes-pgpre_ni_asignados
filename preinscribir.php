@@ -63,7 +63,7 @@ function envioValido() {
 		$formOK = ($_SERVER['HTTP_REFERER'] == $raizDelSitio .'planilla_r.php');
 	} */
     $formOK = $formOK && isset($_REQUEST['ci_e']) && isset($_REQUEST['conducta']);
-	//echo $formOK;
+	echo $formOK;
 	return $formOK;
 }
 
