@@ -5,10 +5,10 @@ $raizDelSitio		= 'http://'.$_SERVER['SERVER_NAME'].'/web/urace/pregrado/estudian
 $urlDelSitio		= 'http://www.poz.unexpo.edu.ve/web/urace/';
 //$urlDelSitio		= 'http://localhost/pre_ni_asignados/';
 $tProceso			= 'Carga de Datos Estudiantes Nuevo Ingreso ';
-$lapsoProceso		= '2023-2';
+$lapsoProceso		= '2024-1';
 $tLapso				= 'Lapso '.$lapsoProceso;
-$laBitacora			= $_SERVER[DOCUMENT_ROOT].'/log/pregrado/estudiantes/nuevo_ingreso/carga-datos_'.$lapsoProceso.'_fase_A.log';
-$inscHabilitada		= false;
+$laBitacora			= $_SERVER['DOCUMENT_ROOT'].'/log/pregrado/estudiantes/nuevo_ingreso/carga-datos_'.$lapsoProceso.'_fase_A.log';
+$inscHabilitada		= true;
 //Si se requiere imprimir en planilla un mensaje extra, activar esto y colocarlo
 // en inc/msgExtra.php
 $mensajeExtra		= true; 
