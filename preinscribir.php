@@ -62,8 +62,14 @@ function envioValido() {
 	/* if (isset($_SERVER['HTTP_REFERER'])) {
 		$formOK = ($_SERVER['HTTP_REFERER'] == $raizDelSitio .'planilla_r.php');
 	} */
-    $formOK = $formOK && isset($_REQUEST['ci_e']);
-	echo $formOK;
+
+	// Esta linea evita que se envie el formulario
+	// Ya que la evaluacion no retorna nada
+    // $formOK = $formOK && isset($_REQUEST['ci_e']) && isset($_REQUEST['conducta']);
+	// -> Modificado el 18/02/2024 Marcos Yeguez
+
+	$formOK = isset($_REQUEST['ci_e']) && isset($_REQUEST['conducta']);
+	//echo $formOK;
 	return $formOK;
 }
 
@@ -87,7 +93,8 @@ function generarSQL($tabla, $nCampo, $aValores) {
     $valores = "";
 	foreach ($nCampo as $campo) {
 		$val=trim($aValores[$campo]);
-		if (eregi("NULL",$val) == 0) $valores .= "'".addslashes($val)."',";
+		// if (eregi("NULL",$val) == 0) $valores .= "'".addslashes($val)."',"; // -> Modificado el 18/02/2024 Marcos Yeguez
+		if (preg_match("/NULL/i", $val) == 0) $valores .= "'".addslashes($val)."',";
        else
           $valores .= "NULL,";
       }
@@ -313,7 +320,9 @@ function generarFormDatos() {
 C000
 ;
 	reset($_d);
-	while (list($nombre, $valor) = each($_d)) {
+
+	// while (list($nombre, $valor) = each($_d)) { -> Modificado el 18/02/2024 Marcos Yeguez
+	foreach ($_d as $nombre => $valor) {
 		print <<<C001
 	<input type="hidden" name="$nombre" value="$valor">
 

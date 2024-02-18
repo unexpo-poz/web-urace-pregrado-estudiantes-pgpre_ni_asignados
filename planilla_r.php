@@ -53,7 +53,8 @@
 		//si regresa de un intento por preinscribirse, leer los datos enviados
 		if (isset($_REQUEST['conducta'])) {
 			reset($_d);
-			while (list($nombre, $valor) = each($_REQUEST)) {
+			// while (list($nombre, $valor) = each($_REQUEST)) { -> Modificado el 18/02/2024 Marcos Yeguez
+			foreach ($_REQUEST as $nombre => $valor) {
 				$_d[$nombre] = $valor;
 			}
 			return; //terminar, ya tenemos los datos enviados originalmente
